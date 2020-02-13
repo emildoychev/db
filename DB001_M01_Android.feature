@@ -20,11 +20,11 @@ Scenario: Add a product to the Basket from home screen
 	Given I am on Home screen with title "HEREN"
 	When I tap on button "Bekijk het aanbod"
 		And I see screen "ODE AAN DE KLASSIEKERS"
-			And I tap on first item in list ("BURBERRY Westminster trechcoat met raglanmouw")
+			And I tap on first item in list ("BURBERRY Westminster trenchcoat met raglanmouw")
 		And I see product details screen
 			And I scroll page to see button "In winkelmand"
 			And I tap button "In winkelmand"
-			And I select 50 from the "Selectreet maat" menu
+			And I select 50 from the "Selecteer maat" menu
 			And I see toast message "Artikel toegevoegd aan winkelmand"
 		And I tap on bottom menu item Basket
 			And I see Basket screen with my selected item added in correct color, size and amount
